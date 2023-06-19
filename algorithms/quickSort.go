@@ -4,6 +4,11 @@ import "fmt"
 
 func Quicksort(arr []int) []int {
 
+	/*dfejfejfhefhjehfjeh
+	sdsdsdsd
+	sdfdggjgj
+	fdssfdg*/
+
 	if len(arr) < 2 {
 		return arr
 	}
@@ -18,7 +23,7 @@ func Quicksort(arr []int) []int {
 			greater = append(greater, el)
 		} else {
 			less = append(less, el)
-			fmt.Println("TEST")
+			fmt.Println("NewTest")
 		}
 	}
 
