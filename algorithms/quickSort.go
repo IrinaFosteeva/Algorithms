@@ -1,11 +1,8 @@
 package algorithms
 
-func Quicksort(arr []int) []int {
+import "fmt"
 
-	/*dfejfejfhefhjehfjeh
-	sdsdsdsd
-	sdfdggjgj
-	fdssfdg*/
+func Quicksort(arr []int) []int {
 
 	if len(arr) < 2 {
 		return arr
@@ -21,6 +18,7 @@ func Quicksort(arr []int) []int {
 			greater = append(greater, el)
 		} else {
 			less = append(less, el)
+			fmt.Println("TEST")
 		}
 	}
 
