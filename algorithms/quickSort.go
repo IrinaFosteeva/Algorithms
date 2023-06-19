@@ -16,7 +16,7 @@ func Quicksort(arr []int) []int {
 	var less, greater []int
 
 	////SOME
-	//tyty
+	//tytyy
 	////CODE
 
 	for _, el := range arr[1:] {
