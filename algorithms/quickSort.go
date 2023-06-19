@@ -23,7 +23,8 @@ func Quicksort(arr []int) []int {
 			greater = append(greater, el)
 		} else {
 			less = append(less, el)
-			fmt.Println("NewTest")
+			fmt.Println("efenjv")
+			fmt.Println("New")
 		}
 	}
 
