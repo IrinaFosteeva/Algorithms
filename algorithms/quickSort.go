@@ -1,7 +1,5 @@
 package algorithms
 
-import "fmt"
-
 func Quicksort(arr []int) []int {
 
 	if len(arr) < 2 {
@@ -15,12 +13,11 @@ func Quicksort(arr []int) []int {
 			greater = append(greater, el)
 		} else {
 			less = append(less, el)
-			fmt.Println("Test00")
-			fmt.Println("Test")
 		}
 	}
 
 	less = Quicksort(less)
+	//test from One
 	greater = Quicksort(greater)
 
 	return append(append(less, pivot), greater...)
