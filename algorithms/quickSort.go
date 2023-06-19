@@ -7,6 +7,9 @@ func Quicksort(arr []int) []int {
 	pivot := arr[0]
 	var less, greater []int
 
+	////SOME
+	////CODE
+
 	for _, el := range arr[1:] {
 		if el > pivot {
 			greater = append(greater, el)
