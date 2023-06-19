@@ -4,7 +4,6 @@ func Quicksort(arr []int) []int {
 	if len(arr) < 2 {
 		return arr
 	}
-
 	pivot := arr[0]
 	var less, greater []int
 
